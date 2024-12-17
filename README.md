@@ -15,7 +15,7 @@ npm install bdt-currency
 To use the package, you can import it into your JavaScript or TypeScript file:
 
 ```javascript
-const formatBDT = require('bdt-currency-formatter');
+const formatBDT = require('bdt-currency');
 
 console.log(formatBDT(1000));           // Output: "৳ 1,000"
 console.log(formatBDT(1000000));        // Output: "৳ 10 Lakh"
